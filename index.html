@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogenda Chowdary</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/cfd51a0e37.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="images/logo-removebg-preview.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+
+                <h1>Hi, I'm<span> Yogendra</span> <br></h1>
+                <p>A Cloud enthusiast and tech aficionado based in India</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yogendra-chowdary-ab37a4248/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/yogendrachowdary"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/oggy.__.12/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+
+                </div>
+
+            </div>
+            <a href="images/Resume.pdf" download="" class="btn btn2"><i class="fa-solid fa-download"></i> Download
+                CV</a>
+
+        </div>
+        <!---------about------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/meri.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I'm Yogendra Chowdary, a prefinal year B.Tech student majoring in Computer Science with a
+                            deep passion for coding and a particular enthusiasm for cloud technologies. As a full stack
+                            web developer, I thrive on crafting seamless and responsive applications, leveraging
+                            languages and frameworks like HTML, CSS, JavaScript, Node.js, React, and Express.js. <br>
+                            <br> Beyond the code, I find joy in unraveling complex problems and am driven by the
+                            transformative potential of technology. <br> <br>Eager to contribute to the ever-evolving
+                            tech landscape, I'm on the lookout for opportunities that allow me to merge my love for
+                            coding with innovative solutions, especially in the realm of cloud computing.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span class="ach">Cloud Technoly</span> <br>AWS Cloud & Google Cloud </li>
+                                <li><span class="ach">Programming</span> <br>JAVA, C, C++, Python & Scala </li>
+                                <li><span class="ach">Full Stack</span> <br> HTML, CSS, Bootstrap,<br> Flask, Django,
+                                    JavaScript,
+                                    Node,<br> Express, React, SQL, MongoDB </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span class="ach">2021-Current</span> <br>KL University </li>
+                                <li><span class="ach">2019-2021</span> <br> Gravity Junior College</li>
+                                <li><span class="ach">2018-2019</span> <br>The Don Bosco Public School </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span class="ach">AWS</span> <br> AWS Cloud Practioner <br> AWS Developer Associate
+                                </li>
+                                <li><span class="ach">Red Hat</span> <br>RedHat Enterprise Application Developer </li>
+                                <li><span class="ach">NPTEL</span> <br>Programming in Java </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Certifications</h1>
+                <div class="services-list">
+                    <div class="service-item"
+                        style="background-image: url('images/aws-certified-cloud-practitioner.png');">
+                        <div class="content">
+                            <i class="fa-brands fa-aws"></i>
+                            <h2>AWS Cloud Practitioner</h2>
+                            <a href="https://www.credly.com/badges/376f3a52-c9f5-447e-9a1e-79137d695eb6/public_url"
+                                style="color: black; text-decoration: none;">👀 VIEW CREDENTIALS</a>
+                        </div>
+                    </div>
+                    <div class="service-item"
+                        style="background-image: url('images/aws-certified-developer-associate.png');">
+                        <div class="content">
+                            <i class="fa-brands fa-aws"></i>
+                            <h2>AWS Developer Associate</h2>
+                            <a href="https://www.credly.com/badges/6c61fdb1-8729-4df7-9cba-296470cf8254/public_url"
+                                style="color: black; text-decoration: none;">👀 VIEW CREDENTIALS</a>
+                        </div>
+                    </div>
+                    <div class="service-item"
+                        style="background-image: url('images/red-hat-certified-enterprise-application-developer.png');">
+                        <div class="content">
+                            <i class="fa-brands fa-redhat"></i>
+                            <h2>RedHat Enterprise Application Developer</h2>
+                            <a href="https://www.credly.com/badges/c06375a1-792e-4ad8-a94a-418af9b7ccb9/public_url"
+                                style="color: black; text-decoration: none;">👀 VIEW CREDENTIALS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Work-->
+
+        <div id="Work">
+
+
+
+            <div class="container">
+
+                <h1 class="sub-title">My Work </h1>
+
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="./images/car .jpg" alt="">
+                        <div class="layer">
+                            <h3>Car Rental App</h3>
+                            <p>This webapp let you rent a car online and it made with Django, a python frameworks</p>
+                            <a href="https://github.com/yogendrachowdary/Django"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/pet.png" alt="">
+                        <div class="layer">
+                            <h3>Pet Nirvana App</h3>
+                            <p>This webapp let you adopt a pet online and it made with SpringBoot, a Java frameworks</p>
+                            <a href="https://pet-nirvana.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/travel.png" alt="">
+                        <div class="layer">
+                            <h3>Travel App</h3>
+                            <p>This webapp let you get a travel plan online and it made with React, a JavaScript
+                                frameworks</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+
+        <!--Contact-->
+
+        <div id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope"></i> yogendrachowdary101@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 7995398225</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/yogendra-chowdary-ab37a4248/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/yogendrachowdary"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/oggy.__.12/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+
+                        </div>
+                        <a href="images/Resume.pdf" download="" class="btn btn2"><i class="fa-solid fa-download"></i>
+                            Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p> Made with ❤️ by Yogendra</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbxkzAWcIdMfoP2tMwIyfvpuJU7XQkkbX22a6LpaxNp_1OYhx1-6UpAkIfK1XmInr53mjQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Sucessfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var serviceItems = document.querySelectorAll(".service-item");
+
+            serviceItems.forEach(function (item) {
+                var originalBackgroundImage = item.style.backgroundImage;
+
+                item.addEventListener("mouseover", function () {
+                    item.style.backgroundImage = "none";
+                    item.style.backgroundColor = "cyan";
+                });
+
+                item.addEventListener("mouseout", function () {
+                    item.style.backgroundImage = originalBackgroundImage;
+                    item.style.backgroundColor = "transparent"; // Corrected spelling
+                });
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
